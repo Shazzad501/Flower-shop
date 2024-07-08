@@ -33,8 +33,6 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: rgba(229, 84, 115, 0.1);
-  position: ;
-  top: ;
 }
 nav div {
   width: 20%;
@@ -150,7 +148,7 @@ nav .country-section {
   max-width: 1440px;
   min-height: 740px;
   margin: 120px auto;
-  border: 1px solid red;
+
 }
 .card-content {
   width: 100%;
@@ -166,5 +164,37 @@ nav .country-section {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
+}
+
+.card-container{
+  width:100%;
+  display: flex;
+  gap:30px;
+}
+.card-container div{
+  width:32%;
+  margin-top:40px;
+}
+.card-container h2{
+  font-size:30px;
+  color: rgb(39 39 39);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.card-container p{
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.card-container img{
+  margin-left:60px;
+}
+.pink-flower{
+  margin-top: 43px;
+}
+.mix-flower{
+  margin-top:101px;
 }
 /* card section style close */
