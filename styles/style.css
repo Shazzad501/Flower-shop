@@ -148,7 +148,6 @@ nav .country-section {
   max-width: 1440px;
   min-height: 740px;
   margin: 120px auto;
-
 }
 .card-content {
   width: 100%;
@@ -158,43 +157,78 @@ nav .country-section {
   color: rgb(39, 39, 39);
   font-size: 40px;
   font-weight: 800;
-  margin-bottom:25px;
+  margin-bottom: 25px;
+
 }
 .card-content p {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
+
 }
 
-.card-container{
-  width:100%;
+.card-container {
+  width: 100%;
   display: flex;
-  gap:30px;
+  gap: 30px;
 }
-.card-container div{
-  width:32%;
-  margin-top:40px;
+.card-container div {
+  width: 32%;
+  margin-top: 40px;
+  border-radius: 10px;
 }
-.card-container h2{
-  font-size:30px;
+.card-container h2 {
+  font-size: 30px;
   color: rgb(39 39 39);
   font-weight: 800;
   margin-bottom: 20px;
 }
-.card-container p{
+.card-container p {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
-.card-container img{
-  margin-left:60px;
+.card-container img {
+  margin-left: 60px;
 }
-.pink-flower{
+.pink-flower {
   margin-top: 43px;
 }
-.mix-flower{
-  margin-top:101px;
+.mix-flower {
+  margin-top: 101px;
+}
+.card-container-div1{
+  background-color: #f2dee8;
+}
+.card-container-div2{
+  background-color: #daf0f1;
+}
+.card-container-div3{
+  background-color: #e4ecdc;
 }
 /* card section style close */
+
+/* Service section styles start */
+.service {
+  width: 1440px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  margin: auto auto;
+  padding: 86px 175px;
+  gap:30px
+}
+.service div{
+  width:32%;
+  text-align: center;
+}
+.service p{
+  color: rgba(39, 39, 39, 0.8);
+font-size: 20px;
+margin-top: 20px;
+font-weight: 600px;
+}
+/* Service section styles close */
