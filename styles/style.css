@@ -27,7 +27,7 @@
 
 /* Navbar style start */
 nav {
-  width: 1920px;
+  width: 100%;
   height: 75px;
   display: flex;
   justify-content: center;
@@ -110,7 +110,7 @@ nav .country-section {
 
 /* Banner section start */
 .banner {
-  width: 1920px;
+  width: 100%;
   height: 850px;
   background: rgba(229, 84, 115, 0.1);
   margin-top: ;
@@ -145,7 +145,7 @@ nav .country-section {
 
 /* card section style start */
 .card {
-  max-width: 1440px;
+  max-width: 1420px;
   min-height: 740px;
   margin: 120px auto;
 }
@@ -158,13 +158,11 @@ nav .country-section {
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 25px;
-
 }
 .card-content p {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
-
 }
 
 .card-container {
@@ -199,36 +197,176 @@ nav .country-section {
 .mix-flower {
   margin-top: 101px;
 }
-.card-container-div1{
+.card-container-div1 {
   background-color: #f2dee8;
 }
-.card-container-div2{
+.card-container-div2 {
   background-color: #daf0f1;
 }
-.card-container-div3{
+.card-container-div3 {
   background-color: #e4ecdc;
 }
 /* card section style close */
 
 /* Service section styles start */
 .service {
-  width: 1440px;
+  width: 1420px;
   height: 320px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   display: flex;
   margin: auto auto;
   padding: 86px 175px;
-  gap:30px
+  gap: 30px;
 }
-.service div{
-  width:32%;
+.service div {
+  width: 32%;
   text-align: center;
 }
-.service p{
+.service p {
   color: rgba(39, 39, 39, 0.8);
-font-size: 20px;
-margin-top: 20px;
-font-weight: 600px;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 600px;
 }
 /* Service section styles close */
+
+/* discount section style start */
+.discount {
+  width: 100%;
+  height: 620px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 0px;
+}
+.discount-content {
+  width: 594px;
+  height: 228px;
+  text-align: center;
+}
+.discount-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.discount-content h2 span {
+  color: rgb(229, 84, 115);
+}
+.discount-content p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 30px;
+}
+.discount-img {
+  width: 318px;
+  height: 420px;
+  margin-left: 186px;
+}
+/* discount section style close */
+
+/* Instagram section style start */
+.instagram {
+  width: 1420px;
+  margin: auto auto;
+  justify-content: center;
+  text-align: center;
+}
+.insta-content h2 {
+  text-align: center;
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.insta-content p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.insta-img {
+  display: flex;
+  gap: 20px;
+}
+/* Instagram section style close */
+
+/* latest deals section styles start */
+.latest {
+  width: 1440px;
+  height: 449px;
+  margin: 120px auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/latest-deals-bg.png);
+  
+}
+.latest h2 {
+  margin-top:;
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+}
+.latest p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.search {
+  width: 700px;
+  height: 63px;
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+}
+.sub {
+  height: 62px;
+  margin-bottom: -px;
+}
+.latest div{
+padding-top: 120px;
+}
+/* latest deals section styles close */
+
+
+
+
+/* footer section styles start */
+footer{
+  width:100%;
+  height:450px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+ background: rgb(17, 16, 16);
+}
+footer h2{
+font-size: 48px;
+font-weight: 800;
+padding-top: 130px;
+}
+footer h2 span{
+  color:rgb(229, 84, 115);
+}
+footer p{
+  color: rgba(255, 255, 255, 0.9);
+margin-top: 15px;
+font-size: 18px;
+font-weight: 400;
+}
+footer h4{
+  color: rgba(255, 255, 255, 0.4);
+font-size: 16px;
+font-weight: 400;
+margin-top: 40px;
+}
+/* footer section styles close */
